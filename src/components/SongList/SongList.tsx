@@ -1,6 +1,6 @@
 import Song from '../Song/Song'
 import { SongType } from '../../types/song'
-import { useSongList } from './hook'
+import { useSongList } from './useSongList'
 
 const SongList = () => {
   const { 
