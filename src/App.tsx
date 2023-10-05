@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        iTunes top 50
+        <h1 className="text-4xl font-bold text-center py-10">iTunes top 50</h1>
       </header>
       <div className="px-5">
         <SongList />
