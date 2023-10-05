@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import SongList from './components/SongList/SongList';
 import './App.css';
 
