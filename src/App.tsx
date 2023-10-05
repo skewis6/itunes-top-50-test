@@ -9,7 +9,9 @@ function App() {
       <header className="App-header">
         iTunes top 50
       </header>
-      <SongList />
+      <div className="px-5">
+        <SongList />
+      </div>
     </div>
   );
 }
