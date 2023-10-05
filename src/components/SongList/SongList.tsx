@@ -14,12 +14,14 @@ const SongList = () => {
 
   console.log(songs)
   return (
-    <div>
-      {songs.map((song: SongType) => {
-        return (
-          <Song key={song.id.attributes['im:id']} song={song} />
-        )
-      })}
+    <div className='mx-auto max-w-[900px]'>
+      <div className='grid grid-cols-5 gap-5'>
+        {songs.map((song: SongType) => {
+          return (
+            <Song key={song.id.attributes['im:id']} song={song} />
+          )
+        })}
+      </div>
     </div>
   )
 }
